@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
+html {
+  font-size: 55.5%;
+}
+
+body {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+.forms {
+  margin-top: 10rem;
+  height: 40rem;
+  width: 40rem;
+  background-color: aliceblue;
+}
+
+label {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 40rem;
+  border: 2px solid #000000;
+  border-radius: 0.5rem;
+}
+
+.tax-gross {
+  margin-left: 10rem;
+  display: flex;
+}
+
+.tax-gross > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.button-reset {
+  display: flex;
+  margin-left: 20rem;
+}
+
+.btn1 {
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 35px;
+  max-width: 100px;
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+.btn2 {
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 35px;
+  max-width: 100px;
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+.data-show {
+  margin-top: 3rem;
+}
+
+.table-data {
+  font-size: 2rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-data td,
+.table-data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-data tr:hover {
+  background-color: #ddd;
+}
+
+.table-data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.data-info {
+  margin-top: -36rem;
+  margin-left: 65rem;
+  height: 40rem;
+  width: 50rem;
+  background-color: bisque;
+}
+
+h1 {
+  margin-bottom:5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 50rem;
+  font-weight: bolder;
+}
+
+
