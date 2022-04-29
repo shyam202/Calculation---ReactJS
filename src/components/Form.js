@@ -17,10 +17,10 @@ const Form = () => {
           inputData={inputData}
           setInputData={setInputData}
           setItemList={setItemList}
+          itemList={itemList}
         />
-      
+
         <Overview itemList={itemList} />
-       
       </div>
       <List itemList={itemList} />
     </>
